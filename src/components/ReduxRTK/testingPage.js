@@ -73,13 +73,7 @@ const HomePage = () => {
 
   return (
     <Layout>
-      <button disabled={ result.isLoading } type='submit' onClick={ () => handleSubmitRegister( newUser ) }>
-        {!result.isLoading ? 'Register' : 'Register...'}
-      </button>
-      <button type='submit' onClick={ () => handleLogin() }>Login</button>
-
-      <button type='submit' onClick={ () => handleLogout() }> Logout</button>
-
+  
 
       <HeroSection />
       <div className="main-container">
